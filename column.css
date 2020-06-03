@@ -1,0 +1,56 @@
+div[class*="column"]{
+  float: left;
+}
+.column-middle {
+  width: 60%;
+  float: left;
+}
+.column-side {
+  width: 20%;
+  float: left;
+}
+.column-left {
+  width: 40%;
+  padding-right: 0.6vw;
+}
+.column-right {
+  width: 60%;
+  border-left: solid 0.2vw;;
+}
+.column-2 {
+  width: 50%;
+  float: left;
+  min-height: 5.0vw;
+  text-align: center;
+}
+.column-3 {
+  width: 33%;
+  float: left;
+  min-height: 5.0vw;
+  text-align: center;
+}
+.column-5 {
+  width: 25%;
+  float: left;
+  min-height: 9.4vw;
+  max-height: 9.4vw;
+  text-align: center;
+  border-style: solid;
+  border-width: 0.4vw 0.2vw;
+  font-size: 1.4vw;
+}
+.column-5 p{
+  font-size: 1vw;
+}
+.column-5:first-child {
+  border-width: 0.4vw 0.2vw 0.4vw 0;
+}
+.column-5:last-child {
+  border-width: 0.4vw 0 0.4vw 0.2vw;
+}
+.column-5.small{
+width:12%;
+}
+.column-5.big{
+width:25%;
+}

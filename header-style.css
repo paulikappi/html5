@@ -1,0 +1,44 @@
+
+.sans {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+}
+.smokum {
+    font-family: 'Smokum', serif;}
+
+.fjalla {
+    font-family: 'Fjalla One', sans-serif;
+}
+.sixcaps {
+  font-family: 'Six Caps';
+  text-transform:uppercase;
+}
+.medula {
+  font-family: 'Medula One';
+  text-transform:uppercase;
+}
+.stint {
+  font-family: 'Stint Ultra Condensed';
+  text-transform:uppercase;
+}
+.sche {
+  font-family: 'Scheherazade';
+  font-weight: 800;
+  text-transform:uppercase;
+}
+.header {
+  font-family: 'Open Sans', sans-serif;
+  padding: 3vw 0;
+  font-weight: 600;
+  font-stretch: ultra-condensed;
+}
+.main {
+  margin: 0;
+  padding: 0;
+  vertical-align: middle;
+  padding: 0;
+  margin: 0;
+}
+.sidenote {
+  font-weight: 600;
+}

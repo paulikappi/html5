@@ -1,0 +1,19 @@
+table {
+  width: 100%;
+}
+tr {
+  width:100%;
+}
+td[class*="td-"]{
+  font-size: 1.2vw;
+}
+.td-3{
+  width: 33%;
+}
+.td-4{
+  width: 25%;
+}
+.td-5{
+  width: 20%;
+  font-size: 0.8vw;
+}

@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+}
+body{
+  background-color: black;
+}
+.content {
+  padding: 2vw;
+  margin: auto;
+  background-color: #d9d9d9;
+}
+.row {
+  width: 100%;
+  min-height: 2.0vw;
+  margin: 0;
+}
+.publish-number {
+  font-family: 'Smokum';
+  font-size: 1.6vw;
+  vertical-align: middle;
+}
+.year-number {
+  font-weight: 400;
+  text-align: right;
+  vertical-align: middle;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.date-banner {
+  vertical-align: middle;
+  font-family: 'Smokum';
+  text-align: center;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+p {
+  font-family: serif;
+  font-size: 1.4vw;
+  padding: 0;
+  margin: 0;
+}
+.german {
+  font-family: 'Pirata One';
+  text-align: justify;
+}
+.align-right {
+  text-align: right;
+}
+.notification {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  text-decoration: underline;
+  display:inline-block;
+  border-top: solid 0.2vw;
+}
+.notification h3 {
+  text-align: left;
+  display:inline-block;
+  font-size: 3vw;
+}
+.footer {
+  width: 100%;
+}
+
+div[class*="footer-"]{
+  float: left;
+  padding: 0 1vw;
+}
+
+.footer-left{
+  text-align: right;
+  width: 40%;
+}
+.footer-mid{
+  width: 20%;
+  text-align: center;
+
+}
+.footer-right{
+  text-align: left;
+  width: 40%;
+}
